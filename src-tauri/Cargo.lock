@@ -75,7 +75,7 @@ checksum = "080e9890a082662b09c1ad45f567faeeb47f22b5fb23895fbe1e651e718e25ca"
 
 [[package]]
 name = "app"
-version = "0.1.6"
+version = "0.1.7"
 dependencies = [
  "log",
  "serde",
@@ -358,18 +358,15 @@ dependencies = [
 
 [[package]]
 name = "blocking"
-version = "1.5.1"
+version = "1.6.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6a37913e8dc4ddcc604f0c6d3bf2887c995153af3611de9e23c352b44c1b9118"
+checksum = "e83f8d02be6967315521be875afa792a316e28d57b5a2d401897e2a7921b7f21"
 dependencies = [
  "async-channel",
- "async-lock 3.0.0",
  "async-task",
- "fastrand 2.0.1",
  "futures-io",
  "futures-lite 2.0.1",
  "piper",
- "tracing",
 ]
 
 [[package]]
